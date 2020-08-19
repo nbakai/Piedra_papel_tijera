@@ -8,25 +8,30 @@ when 0
         puts 'Empataste'
     elsif player == 'tijera'
         puts 'Perdiste'
-    else
+    elsif player == 'papel'
         puts 'Ganaste'
+    else
+        puts 'Argumento inválido: Debe ser piedra, papel o tijera.'
     end
 when 1
     if player == 'papel'
         puts 'Empataste'
     elsif player == 'tijera'
         puts 'Ganaste'
-    else
+    elsif player == 'piedra'
         puts 'Perdiste'
+    else
+        puts 'Argumento inválido: Debe ser piedra, papel o tijera.'
     end
 when 2
     if player == 'tijera'
         puts 'Empataste'
     elsif player == 'piedra'
         puts 'Ganaste'
-    else
+    elsif player == 'papel'
         puts 'Perdiste'
+    else
+        puts 'Argumento inválido: Debe ser piedra, papel o tijera.'
     end
-else
-    puts 'Argumento inválido: Debe ser piedra, papel o tijera.'
+
 end
